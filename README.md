@@ -37,14 +37,6 @@ The Home screen displays the list of food items in a grid view, with each food i
 
 <!-- The app is designed to be scalable and modular, with a clean and organized codebase. The backend API is implemented using Express.js and Mongoose, with separate controllers and models for each component. The frontend is implemented using React, with separate components for each screen and functionality.-->
 
-## Usage-
-
-
-
-## Live-Demo-
-
-[Food-Delivery-App-Live]()
-
 
 ## Steps to Run the App- 
 
