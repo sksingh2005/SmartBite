@@ -9,7 +9,7 @@ const fetch = (req,res,next)=>{
     }
     try {
         const data = jwt.verify(token,jwtSecret);
-        req.user = data.user
+        req.user = data.user        //adding for admin
         next();
         
     } catch (error) {

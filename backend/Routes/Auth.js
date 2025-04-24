@@ -194,4 +194,16 @@ router.post('/myOrderData', async (req, res) => {
 
 });
 
+router.post('/getadmin', fetch, async (req, res) => {
+    try {
+        const adminId = req.admin.id;
+        const admin = await Admin.findById(adminId).select("-password") // -password will not pick password from db.
+        res.send(admin)
+    } catch (error) {
+        console.error(error.message)
+        res.send("Server Error")
+
+    }
+})
+
 module.exports = router
