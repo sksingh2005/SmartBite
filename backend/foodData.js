@@ -6,14 +6,14 @@ const foodItems = [
       name: 'Cheeseburger',
       CategoryName: 'Fast Food',
       img:'https://media.istockphoto.com/id/1438143625/photo/double-cheese-beef-burger-with-kitchen-background.jpg?s=2048x2048&w=is&k=20&c=TFvLMqQ4RrxkB7DhSM0M9ZBcztfZkV2D5oz5tYZcKQI=',
-      options: [{ Small:2, Regular: 5, Large:7 }]
+      options: [{ Small:5, Regular: 15, Large:25 }]
     },
     {
       id: 2,
       name: 'Veg Pizza',
       CategoryName: 'Fast Food',
       img: 'https://media.istockphoto.com/id/842082336/photo/homemade-veggie-pizza-with-mushrooms-peppers.jpg?s=2048x2048&w=is&k=20&c=nUFLz6cJ-tyijdWtpEBey6b8Ur10g44mkxnMJCr1ww0=',
-      options: [{ Small:2, Regular: 5, Large:7 }]
+      options: [{ Small:2, Regular: 15, Large:7 }]
     },
     {
       id: 3,
