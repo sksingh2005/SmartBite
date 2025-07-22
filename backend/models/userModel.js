@@ -1,30 +1,12 @@
 import mongoose from "mongoose";
-import validator from "validator";
 
-const UserSchema = mongoose.Schema({
-    email : {
-        type : String,
-        required: true,
-        validator: [validator.isEmail, "Please Enter a valid Email"]
-    },
-    password:{
-        type: String,
-        required : true,
-        select : false,
-        minlength : 8,
-    },
-    name :{
-        type: String,
-        required : true,
-    },
-    phone:{
-        type : Number,
-        required : true,
-    },
-    token:{
-        type : String,
-        default : null,
-    }
-})
+const userSchema = new mongoose.Schema({
+    name:{type:String, required:true},
+    email:{type:String, required:true, unique:true},
+    password:{type:String, required:true},
+    cartData:{type:Object, default:{}}
+},{minimize:false})
 
-export const User = mongoose.model("user",UserSchema);
+const userModel = mongoose.model.user || mongoose.model("user", userSchema);
+
+export default userModel;

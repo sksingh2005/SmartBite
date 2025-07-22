@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Food Delivery App using MERN Stack
 
 The purpose of this project is to develop a food delivery app using the MERN (MongoDB, Express, React, Node.js) stack. The app allows users to order food items. The app is designed to be user-friendly, with a clean and modern interface.
@@ -112,3 +113,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+=======
+# SmartBite
+C:\Users\raj07\OneDrive\ドキュメント\GitHub\SmartBite\README.md
+>>>>>>> Stashed changes
